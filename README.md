@@ -12,3 +12,9 @@ Currently, two official plugins are available:
 ## Small React Features
 
 - Accordion
+- Random Color Generator
+- Star Rating
+
+
+
+

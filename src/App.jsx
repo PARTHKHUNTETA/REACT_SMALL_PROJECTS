@@ -1,14 +1,14 @@
-import './App.css'
-import Accordion from './Components/Accordion'
-import RandomColor from './Components/RandomColor'
+import "./App.css";
+import Accordion from "./Components/Accordion";
+import RandomColor from "./Components/RandomColor";
+import StarRating from "./Components/StarRating";
 
 function App() {
-
   return (
     <>
-      <RandomColor/>
+      <StarRating />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
