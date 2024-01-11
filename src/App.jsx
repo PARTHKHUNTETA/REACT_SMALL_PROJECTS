@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Accordion from './Components/Accordion'
+import RandomColor from './Components/RandomColor'
 
 function App() {
 
   return (
     <>
-      <Accordion/>
+      <RandomColor/>
     </>
   )
 }
