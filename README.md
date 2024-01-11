@@ -14,6 +14,7 @@ Currently, two official plugins are available:
 - Accordion
 - Random Color Generator
 - Star Rating
+- Image Slider
 
 
 
