@@ -3,6 +3,7 @@ import Accordion from "./Components/Accordion";
 import ImageSlider from "./Components/ImageSlider";
 import RandomColor from "./Components/RandomColor";
 import StarRating from "./Components/StarRating";
+import LoadMoreData from "./LoadMoreData";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         page={"1"}
         limit={"10"}
       /> */}
-      
+      <LoadMoreData />
     </>
   );
 }
