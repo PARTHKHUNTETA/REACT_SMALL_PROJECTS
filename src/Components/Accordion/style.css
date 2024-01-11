@@ -1,0 +1,45 @@
+.acc-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 20px;
+}
+.enableMultiSelection{
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.accordion {
+    width: 700px;
+}
+.item{
+    background: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.acc-content{
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.nodata{
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
