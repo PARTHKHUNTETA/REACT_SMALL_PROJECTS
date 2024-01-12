@@ -9,7 +9,9 @@
 - Random Color Generator
 - Star Rating
 - Image Slider
-
+- LoadMoreData
+- Tree View
+- QR code
 
 
 

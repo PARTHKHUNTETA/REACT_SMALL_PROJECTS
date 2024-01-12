@@ -5,6 +5,7 @@ import RandomColor from "./Components/RandomColor";
 import StarRating from "./Components/StarRating";
 import LoadMoreData from "./Components/LoadMoreData";
 import TreeView from './Components/TreeView'
+import QRCodeGenerator from "./Components/QRCode/"
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         limit={"10"}
       /> */}
       {/* <LoadMoreData /> */}
-      <TreeView />
+      {/* <TreeView /> */}
+      <QRCodeGenerator/>
     </>
   );
 }
