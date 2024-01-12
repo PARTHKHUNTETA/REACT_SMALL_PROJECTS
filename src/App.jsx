@@ -4,8 +4,9 @@ import ImageSlider from "./Components/ImageSlider";
 import RandomColor from "./Components/RandomColor";
 import StarRating from "./Components/StarRating";
 import LoadMoreData from "./Components/LoadMoreData";
-import TreeView from './Components/TreeView'
-import QRCodeGenerator from "./Components/QRCode/"
+import TreeView from "./Components/TreeView";
+import QRCodeGenerator from "./Components/QRCode/";
+import LightDarkTheme from "./Components/LightDarkTheme";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       /> */}
       {/* <LoadMoreData /> */}
       {/* <TreeView /> */}
-      <QRCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
+      <LightDarkTheme />
     </>
   );
 }
