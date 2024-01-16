@@ -12,6 +12,8 @@
 - LoadMoreData
 - Tree View
 - QR code
+- Light dark Mode
+- Custom Scroll Indicator
 
 
 

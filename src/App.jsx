@@ -7,6 +7,7 @@ import LoadMoreData from "./Components/LoadMoreData";
 import TreeView from "./Components/TreeView";
 import QRCodeGenerator from "./Components/QRCode/";
 import LightDarkTheme from "./Components/LightDarkTheme";
+import ScrollingIndicator from "./Components/ScrollIndicator";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <LoadMoreData /> */}
       {/* <TreeView /> */}
       {/* <QRCodeGenerator/> */}
-      <LightDarkTheme />
+      {/* <LightDarkTheme /> */}
+      <ScrollingIndicator url="https://dummyjson.com/products?limit=100" />
     </>
   );
 }
