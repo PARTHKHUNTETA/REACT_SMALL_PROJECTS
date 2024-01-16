@@ -47,7 +47,7 @@ const index = ({ url }) => {
     return <h1>Loading .....</h1>;
   }
   return (
-    <div>
+    <div className="data-scroll-container">
       <div className="top-container">
         <div className="scroll-progress-tracking-container">
           <div

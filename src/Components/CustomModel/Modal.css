@@ -1,0 +1,45 @@
+.modal-popup {
+  position: fixed;
+  z-index: 1;
+  padding-top: 150px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.75);
+  pointer-events: none;
+}
+
+.modal-content {
+  position: relative;
+  background-color: white;
+  margin: auto;
+  padding: 0;
+  border: 2px solid black;
+  width: 80%;
+  color: black;
+  border-radius: 1.5rem;
+  
+}
+
+.close-model-icon {
+    cursor: pointer;
+    font-size: 40px;
+    float: right;
+    font-weight: bold;
+  }
+.header-model {
+  padding: 4px 16px;
+  text-align: center;
+  
+}
+.content-model {
+    padding: 2px 15px;
+    text-align: center;
+    height: 200px;
+}
+.footer-model {
+    padding: 2px 16px;
+    text-align: center;
+}
