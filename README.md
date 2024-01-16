@@ -14,6 +14,8 @@
 - QR code
 - Light dark Mode
 - Custom Scroll Indicator
+- Modal
+- SearchAutoComplete
 
 
 
