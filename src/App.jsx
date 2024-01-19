@@ -8,9 +8,9 @@ import "./App.css";
 // import QRCodeGenerator from "./Components/QRCode/";
 // import LightDarkTheme from "./Components/LightDarkTheme";
 // import ModelTest from "./Components/CustomModel/ModelTest";
-// import SearchAutoComplete from './Components/SearchAutoComplete'
 //import TicTacToe from './Components/tic-tac-toe'
-import UseFetchHookTest from './Components/Use-Fetch/text.jsx'
+//import UseFetchHookTest from './Components/Use-Fetch/text.jsx'
+import UseOutsideHookTest from './Components/Use-Outside-Click/test.jsx'
 
 function App() {
   return (
@@ -34,7 +34,8 @@ function App() {
       {/* <ModelTest /> */}
       {/* <SearchAutoComplete url="https://dummyjson.com/users"/> */}
       {/* <TicTacToe/> */}
-      <UseFetchHookTest/>
+      {/* <UseFetchHookTest/> */}
+      <UseOutsideHookTest/>
     </>
   );
 }
