@@ -1,0 +1,19 @@
+.tic-toe-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border: 1px solid red;
+  border-radius: 0px 0px 0;
+  text-align: center;
+  color: white;
+  cursor: pointer ;
+  float: left;
+  font-size: 30px;
+  margin-right: -1px;
+  margin-top: -1px;
+}

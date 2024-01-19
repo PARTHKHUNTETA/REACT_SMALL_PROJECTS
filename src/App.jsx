@@ -7,8 +7,9 @@ import "./App.css";
 // import TreeView from "./Components/TreeView";
 // import QRCodeGenerator from "./Components/QRCode/";
 // import LightDarkTheme from "./Components/LightDarkTheme";
-import ModelTest from "./Components/CustomModel/ModelTest";
-import SearchAutoComplete from './Components/SearchAutoComplete'
+// import ModelTest from "./Components/CustomModel/ModelTest";
+// import SearchAutoComplete from './Components/SearchAutoComplete'
+import TicTacToe from './Components/tic-tac-toe'
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <LightDarkTheme /> */}
       {/* <ScrollingIndicator url="https://dummyjson.com/products?limit=100" /> */}
       {/* <ModelTest /> */}
-      <SearchAutoComplete url="https://dummyjson.com/users"/>
+      {/* <SearchAutoComplete url="https://dummyjson.com/users"/> */}
+      <TicTacToe/>
     </>
   );
 }
