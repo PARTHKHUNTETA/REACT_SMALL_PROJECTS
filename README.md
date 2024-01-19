@@ -19,4 +19,5 @@
 - TIC TAC TOE
 - useFetch hook
 - useClick Outside
+- useWindowResize
 

@@ -10,8 +10,8 @@ import "./App.css";
 // import ModelTest from "./Components/CustomModel/ModelTest";
 //import TicTacToe from './Components/tic-tac-toe'
 //import UseFetchHookTest from './Components/Use-Fetch/text.jsx'
-import UseOutsideHookTest from './Components/Use-Outside-Click/test.jsx'
-
+// import UseOutsideHookTest from './Components/Use-Outside-Click/test.jsx'
+import UseWindowResize from "./Components/UseWindoResize/test.jsx";
 function App() {
   return (
     <>
@@ -35,7 +35,8 @@ function App() {
       {/* <SearchAutoComplete url="https://dummyjson.com/users"/> */}
       {/* <TicTacToe/> */}
       {/* <UseFetchHookTest/> */}
-      <UseOutsideHookTest/>
+      {/* <UseOutsideHookTest/> */}
+      <UseWindowResize />
     </>
   );
 }
