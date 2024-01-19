@@ -9,7 +9,8 @@ import "./App.css";
 // import LightDarkTheme from "./Components/LightDarkTheme";
 // import ModelTest from "./Components/CustomModel/ModelTest";
 // import SearchAutoComplete from './Components/SearchAutoComplete'
-import TicTacToe from './Components/tic-tac-toe'
+//import TicTacToe from './Components/tic-tac-toe'
+import UseFetchHookTest from './Components/Use-Fetch/text.jsx'
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <ScrollingIndicator url="https://dummyjson.com/products?limit=100" /> */}
       {/* <ModelTest /> */}
       {/* <SearchAutoComplete url="https://dummyjson.com/users"/> */}
-      <TicTacToe/>
+      {/* <TicTacToe/> */}
+      <UseFetchHookTest/>
     </>
   );
 }
